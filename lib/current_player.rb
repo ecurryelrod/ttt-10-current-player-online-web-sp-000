@@ -1,9 +1,10 @@
 def turn_count(board)
-  counter = 0
+  number_of_turns = 0
   board.each do |space|
     if space == "X" || space == "O"
-    counter += 1
+    number_of_turns += 1
     end
   end
-  counter
+  number_of_turns
 end
+
